@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3bb8b119-86b4-4ee3-becb-ec72dbd4c3d2" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1e9nZhSOJCEUTjHxhm3l8oEoj3l" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="true" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/tests" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="domain.utils" />
+      <recent name="" />
+      <recent name="test.domain.models" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="domain" />
+      <recent name="domain.rules" />
+      <recent name="domain.entities" />
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/out" />
+      <recent name="$PROJECT_DIR$/src/app" />
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.CalculadoraDePontosTest.deveCalcularPontosDeFamilia">
+    <configuration name="runMain" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="DesafioDigix" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculadoraDePontosTest.deveCalcularPontosDeFamilia" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DesafioDigix" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="unit.domain.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="unit.domain.utils" />
+      <option name="MAIN_CLASS_NAME" value="unit.domain.utils.CalculadoraDePontosTest" />
+      <option name="METHOD_NAME" value="deveCalcularPontosDeFamilia" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FamiliaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DesafioDigix" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value=".*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="domain.entities" />
+      <option name="MAIN_CLASS_NAME" value="domain.entities.FamiliaTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FamiliaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DesafioDigix" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FamiliaTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FamiliaTest.shouldCountZeroDependentes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DesafioDigix" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value=".*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="domain.entities" />
+      <option name="MAIN_CLASS_NAME" value="domain.entities.FamiliaTest" />
+      <option name="METHOD_NAME" value="shouldCountZeroDependentes" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FamiliaTest.shouldReturnRendaTotal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DesafioDigix" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="domain.entities.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="domain.entities" />
+      <option name="MAIN_CLASS_NAME" value="domain.entities.FamiliaTest" />
+      <option name="METHOD_NAME" value="shouldReturnRendaTotal" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tests.domain in DesafioDigix" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DesafioDigix" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.domain.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.domain" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RunMain" type="ShConfigurationType">
+      <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
+      <option name="SCRIPT_PATH" value="$PROJECT_DIR$/src/run.sh" />
+      <option name="SCRIPT_OPTIONS" value="" />
+      <option name="INDEPENDENT_SCRIPT_WORKING_DIRECTORY" value="true" />
+      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="INDEPENDENT_INTERPRETER_PATH" value="true" />
+      <option name="INTERPRETER_PATH" value="/usr/bin/zsh" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.runMain" />
+      <item itemvalue="JUnit.FamiliaTest.shouldCountZeroDependentes" />
+      <item itemvalue="JUnit.FamiliaTest" />
+      <item itemvalue="JUnit.tests.domain in DesafioDigix" />
+      <item itemvalue="JUnit.FamiliaTest.shouldReturnRendaTotal" />
+      <item itemvalue="Shell Script.RunMain" />
+      <item itemvalue="JUnit.CalculadoraDePontosTest.deveCalcularPontosDeFamilia" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CalculadoraDePontosTest.deveCalcularPontosDeFamilia" />
+        <item itemvalue="JUnit.FamiliaTest.shouldReturnRendaTotal" />
+        <item itemvalue="JUnit.FamiliaTest" />
+        <item itemvalue="JUnit.tests.domain in DesafioDigix" />
+        <item itemvalue="JUnit.FamiliaTest.shouldCountZeroDependentes" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3bb8b119-86b4-4ee3-becb-ec72dbd4c3d2" name="Default Changelist" comment="" />
+      <created>1593742733461</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1593742733461</updated>
+      <workItem from="1593742737611" duration="4134000" />
+      <workItem from="1593814521971" duration="10121000" />
+      <workItem from="1593830533708" duration="3328000" />
+      <workItem from="1593834312232" duration="1571000" />
+      <workItem from="1593894847596" duration="6388000" />
+      <workItem from="1594002882763" duration="6592000" />
+    </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <created>1594009460512</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1594009460512</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="167" y="0" width="1032" height="734" key="#Project_Structure" timestamp="1593831126235">
+      <screen x="0" y="0" width="1366" height="734" />
+    </state>
+    <state x="167" y="0" width="1032" height="734" key="#Project_Structure/0.0.1366.734@0.0.1366.734" timestamp="1593831126235" />
+    <state x="142" y="23" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593834040787">
+      <screen x="0" y="0" width="1366" height="734" />
+    </state>
+    <state x="142" y="23" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.734@0.0.1366.734" timestamp="1593834040787" />
+    <state x="466" y="73" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1593743476390">
+      <screen x="0" y="0" width="1366" height="734" />
+    </state>
+    <state x="466" y="73" key="#com.intellij.ide.macro.MacrosDialog/0.0.1366.734@0.0.1366.734" timestamp="1593743476390" />
+    <state x="492" y="84" key="#com.intellij.ide.util.MemberChooser" timestamp="1594006465854">
+      <screen x="0" y="0" width="1366" height="734" />
+    </state>
+    <state x="492" y="84" key="#com.intellij.ide.util.MemberChooser/0.0.1366.734@0.0.1366.734" timestamp="1594006465854" />
+    <state x="417" y="144" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1593834971254">
+      <screen x="0" y="0" width="1366" height="734" />
+    </state>
+    <state x="417" y="144" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1366.734@0.0.1366.734" timestamp="1593834971254" />
+    <state x="416" y="157" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1593743440182">
+      <screen x="0" y="0" width="1366" height="734" />
+    </state>
+    <state x="416" y="157" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1366.734@0.0.1366.734" timestamp="1593743440182" />
+    <state x="367" y="102" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1594002925207">
+      <screen x="0" y="0" width="1366" height="734" />
+    </state>
+    <state x="367" y="102" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1366.734@0.0.1366.734" timestamp="1594002925207" />
+    <state x="365" y="292" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1594005999410">
+      <screen x="0" y="0" width="1366" height="734" />
+    </state>
+    <state x="365" y="292" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1366.734@0.0.1366.734" timestamp="1594005999410" />
+    <state x="461" y="231" width="444" height="275" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1593897500400">
+      <screen x="0" y="0" width="1366" height="734" />
+    </state>
+    <state x="461" y="231" width="444" height="275" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.734@0.0.1366.734" timestamp="1593897500400" />
+    <state x="462" y="275" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1593834636190">
+      <screen x="0" y="0" width="1366" height="734" />
+    </state>
+    <state x="462" y="275" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1366.734@0.0.1366.734" timestamp="1593834636190" />
+    <state x="278" y="0" key="CommitChangelistDialog2" timestamp="1594009460172">
+      <screen x="0" y="0" width="1366" height="734" />
+    </state>
+    <state x="278" y="0" key="CommitChangelistDialog2/0.0.1366.734@0.0.1366.734" timestamp="1594009460172" />
+    <state x="466" y="123" width="648" height="487" key="FileChooserDialogImpl" timestamp="1594002986140">
+      <screen x="0" y="0" width="1366" height="734" />
+    </state>
+    <state x="466" y="123" width="648" height="487" key="FileChooserDialogImpl/0.0.1366.734@0.0.1366.734" timestamp="1594002986140" />
+    <state width="1320" height="173" key="GridCell.Tab.0.bottom" timestamp="1593991428709">
+      <screen x="0" y="0" width="1366" height="734" />
+    </state>
+    <state width="1320" height="173" key="GridCell.Tab.0.bottom/0.0.1366.734@0.0.1366.734" timestamp="1593991428709" />
+    <state width="1320" height="173" key="GridCell.Tab.0.center" timestamp="1593991428708">
+      <screen x="0" y="0" width="1366" height="734" />
+    </state>
+    <state width="1320" height="173" key="GridCell.Tab.0.center/0.0.1366.734@0.0.1366.734" timestamp="1593991428708" />
+    <state width="1320" height="173" key="GridCell.Tab.0.left" timestamp="1593991428706">
+      <screen x="0" y="0" width="1366" height="734" />
+    </state>
+    <state width="1320" height="173" key="GridCell.Tab.0.left/0.0.1366.734@0.0.1366.734" timestamp="1593991428706" />
+    <state width="1320" height="173" key="GridCell.Tab.0.right" timestamp="1593991428708">
+      <screen x="0" y="0" width="1366" height="734" />
+    </state>
+    <state width="1320" height="173" key="GridCell.Tab.0.right/0.0.1366.734@0.0.1366.734" timestamp="1593991428708" />
+    <state width="1320" height="216" key="GridCell.Tab.1.bottom" timestamp="1593830504258">
+      <screen x="0" y="0" width="1366" height="734" />
+    </state>
+    <state width="1320" height="216" key="GridCell.Tab.1.bottom/0.0.1366.734@0.0.1366.734" timestamp="1593830504258" />
+    <state width="1320" height="216" key="GridCell.Tab.1.center" timestamp="1593830504257">
+      <screen x="0" y="0" width="1366" height="734" />
+    </state>
+    <state width="1320" height="216" key="GridCell.Tab.1.center/0.0.1366.734@0.0.1366.734" timestamp="1593830504257" />
+    <state width="1320" height="216" key="GridCell.Tab.1.left" timestamp="1593830504256">
+      <screen x="0" y="0" width="1366" height="734" />
+    </state>
+    <state width="1320" height="216" key="GridCell.Tab.1.left/0.0.1366.734@0.0.1366.734" timestamp="1593830504256" />
+    <state width="1320" height="216" key="GridCell.Tab.1.right" timestamp="1593830504257">
+      <screen x="0" y="0" width="1366" height="734" />
+    </state>
+    <state width="1320" height="216" key="GridCell.Tab.1.right/0.0.1366.734@0.0.1366.734" timestamp="1593830504257" />
+    <state x="0" y="0" width="1366" height="734" key="SettingsEditor" timestamp="1594009161708">
+      <screen x="0" y="0" width="1366" height="734" />
+    </state>
+    <state x="0" y="0" width="1366" height="734" key="SettingsEditor/0.0.1366.734@0.0.1366.734" timestamp="1594009161708" />
+    <state x="279" y="101" key="Vcs.Push.Dialog.v2" timestamp="1594009483724">
+      <screen x="0" y="0" width="1366" height="734" />
+    </state>
+    <state x="279" y="101" key="Vcs.Push.Dialog.v2/0.0.1366.734@0.0.1366.734" timestamp="1594009483724" />
+    <state x="481" y="147" key="chooseDestDirectoryDialog" timestamp="1593831210357">
+      <screen x="0" y="0" width="1366" height="734" />
+    </state>
+    <state x="481" y="147" key="chooseDestDirectoryDialog/0.0.1366.734@0.0.1366.734" timestamp="1593831210357" />
+    <state x="444" y="248" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1594003092711">
+      <screen x="0" y="0" width="1366" height="734" />
+    </state>
+    <state x="444" y="248" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1366.734@0.0.1366.734" timestamp="1594003092711" />
+    <state x="354" y="35" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1593747759788">
+      <screen x="0" y="0" width="1366" height="734" />
+    </state>
+    <state x="354" y="35" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.734@0.0.1366.734" timestamp="1593747759788" />
+    <state x="458" y="157" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1593977836746">
+      <screen x="0" y="0" width="1366" height="734" />
+    </state>
+    <state x="458" y="157" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.734@0.0.1366.734" timestamp="1593977836746" />
+    <state x="0" y="0" width="592" height="734" key="find.popup" timestamp="1593896168489">
+      <screen x="0" y="0" width="1366" height="734" />
+    </state>
+    <state x="0" y="0" width="592" height="734" key="find.popup/0.0.1366.734@0.0.1366.734" timestamp="1593896168489" />
+    <state x="488" y="277" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1594009406542">
+      <screen x="0" y="0" width="1366" height="734" />
+    </state>
+    <state x="488" y="277" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1366.734@0.0.1366.734" timestamp="1594009406542" />
+    <state x="58" y="0" width="1247" height="734" key="new project wizard" timestamp="1593832948340">
+      <screen x="0" y="0" width="1366" height="734" />
+    </state>
+    <state x="58" y="0" width="1247" height="734" key="new project wizard/0.0.1366.734@0.0.1366.734" timestamp="1593832948340" />
+    <state x="347" y="161" key="run.anything.popup" timestamp="1593817510834">
+      <screen x="0" y="0" width="1366" height="734" />
+    </state>
+    <state x="347" y="161" key="run.anything.popup/0.0.1366.734@0.0.1366.734" timestamp="1593817510834" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="p1.getIdade()" language="JAVA" />
+        <watch expression="f1.countDependentes()" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>
