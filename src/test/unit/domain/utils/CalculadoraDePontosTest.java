@@ -35,8 +35,8 @@ class CalculadoraDePontosTest extends TestAbstract {
         List<Renda> rendas = new ArrayList<>();
 
         Pessoa p1 = this.pessoaFactory.create(30, TipoDePessoa.PRETENDENTE);
-        Pessoa p2 = this.pessoaFactory.create(10, TipoDePessoa.CONJUGE);
-        Pessoa p3 = this.pessoaFactory.create(40, TipoDePessoa.DEPENDENTE);
+        Pessoa p2 = this.pessoaFactory.create(30, TipoDePessoa.CONJUGE);
+        Pessoa p3 = this.pessoaFactory.create(10, TipoDePessoa.DEPENDENTE);
 
         Renda r1 = new Renda(p1.getId(), 2000.00);
         Renda r2 = new Renda(p2.getId(), 2000.00);
@@ -55,6 +55,6 @@ class CalculadoraDePontosTest extends TestAbstract {
 
         int pontuacao = this.calculadoraDePontos.calculaPontuacao(familia);
 
-        assertEquals(10, pontuacao);
+        assertEquals(4, pontuacao);
     }
 }
