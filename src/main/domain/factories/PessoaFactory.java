@@ -4,6 +4,8 @@ import com.github.javafaker.Faker;
 import domain.entities.Pessoa;
 import domain.enums.TipoDePessoa;
 
+import java.time.LocalDate;
+
 public class PessoaFactory extends AbstractFactory {
     Faker faker;
 
@@ -13,7 +15,7 @@ public class PessoaFactory extends AbstractFactory {
 
     public Pessoa create() {
         Pessoa pessoa = new Pessoa();
-        String dataNascimento = faker.date().birthday(12, 80).toString();
+        String dataNascimento = faker.number().numberBetween(1940, LocalDate.now().getYear() - 18) + "-12" + "-01";
 
         pessoa.setId(faker.number().randomNumber());
         pessoa.setDataDeNascimento(dataNascimento);
@@ -25,7 +27,8 @@ public class PessoaFactory extends AbstractFactory {
 
     public Pessoa create(int age, TipoDePessoa tipo) {
         Pessoa pessoa = new Pessoa();
-        String dataNascimento = faker.date().birthday(age, age).toString();
+        String dataNascimento =
+        LocalDate.now().getYear() - (age + 1) + "-12" + "-01";
 
         pessoa.setId(faker.number().randomNumber());
         pessoa.setDataDeNascimento(dataNascimento);
