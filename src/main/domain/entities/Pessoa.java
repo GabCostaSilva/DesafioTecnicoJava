@@ -23,6 +23,7 @@ public class Pessoa {
     }
 
     public Pessoa() {}
+
     public TipoDePessoa getTipo() {
         return tipo;
     }

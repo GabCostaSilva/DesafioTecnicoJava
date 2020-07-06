@@ -3,6 +3,7 @@ package domain.entities;
 import domain.enums.TipoDePessoa;
 
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class Familia {
     Long id;
@@ -27,8 +28,10 @@ public class Familia {
     }
 
     public Pessoa getPretendente() {
-        return (Pessoa) this.pessoas.stream()
-                .filter(pessoa -> TipoDePessoa.PRETENDENTE.equals(pessoa.getTipo()));
+        return this.pessoas.stream()
+                .filter(pessoa -> TipoDePessoa.PRETENDENTE == pessoa.getTipo())
+                .collect(Collectors.toList())
+                .get(0);
     }
 
     public int countDependentes() {
