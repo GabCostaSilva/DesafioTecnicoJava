@@ -2,7 +2,7 @@ package domain.criterias.criteriosNumDependentes;
 
 import domain.enums.EnumPontuacao;
 
-public abstract class CriterioFamiliaCom1ou2Dependentes extends CriterioPorDependentesAbstract{
+public class CriterioFamiliaCom1ou2Dependentes extends CriterioPorDependentesAbstract{
 
     public CriterioFamiliaCom1ou2Dependentes(int numeroDependentes) {
         super(numeroDependentes, EnumPontuacao.DOIS);

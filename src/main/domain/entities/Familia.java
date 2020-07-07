@@ -1,18 +1,19 @@
 package domain.entities;
 
-import domain.enums.TipoDePessoa;
+import domain.enums.EnumTipoDePessoa;
 
 import java.util.List;
+import java.util.UUID;
 import java.util.stream.Collectors;
 
-public class Familia {
-    Long id;
+public class Familia extends AbstractEntity{
+    UUID id;
     List<Renda> rendas;
     List<Pessoa> pessoas;
     int status;
     int pontuacao;
 
-    public Familia(Long id, List<Pessoa> pessoas, List<Renda> rendas, int status) {
+    public Familia(UUID id, List<Pessoa> pessoas, List<Renda> rendas, int status) {
         this.id = id;
         this.pessoas = pessoas;
         this.rendas = rendas;
@@ -29,18 +30,19 @@ public class Familia {
 
     public Pessoa getPretendente() {
         return this.pessoas.stream()
-                .filter(pessoa -> TipoDePessoa.PRETENDENTE == pessoa.getTipo())
+                .filter(pessoa -> EnumTipoDePessoa.PRETENDENTE == pessoa.getTipo())
                 .collect(Collectors.toList())
                 .get(0);
     }
 
     public int countDependentes() {
         return (int) this.pessoas.stream()
-                .filter(pessoa -> pessoa.getIdade() <= 18 && TipoDePessoa.DEPENDENTE.equals(pessoa.getTipo()))
+                .filter(pessoa -> pessoa.getIdade() <= 18 &&
+                        EnumTipoDePessoa.DEPENDENTE.equals(pessoa.getTipo()))
                 .count();
     }
 
-    public void setId(Long id) {
+    public void setId(UUID id) {
         this.id = id;
     }
 

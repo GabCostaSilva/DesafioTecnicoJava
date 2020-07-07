@@ -1,21 +1,22 @@
 package domain.entities;
 
-import domain.enums.TipoDePessoa;
+import domain.enums.EnumTipoDePessoa;
 
 import java.time.LocalDate;
 import java.time.Period;
+import java.util.UUID;
 
-public class Pessoa {
-    Long id;
+public class Pessoa extends AbstractEntity{
+    UUID id;
     String nome;
-    TipoDePessoa tipo;
+    EnumTipoDePessoa tipo;
     LocalDate dataDeNascimento;
 
-    public Long getId() {
+    public UUID getId() {
         return id;
     }
 
-    public Pessoa(Long id, String nome, TipoDePessoa tipo, String dataDeNascimento) {
+    public Pessoa(UUID id, String nome, EnumTipoDePessoa tipo, String dataDeNascimento) {
         this.id = id;
         this.nome = nome;
         this.tipo = tipo;
@@ -24,11 +25,11 @@ public class Pessoa {
 
     public Pessoa() {}
 
-    public TipoDePessoa getTipo() {
+    public EnumTipoDePessoa getTipo() {
         return tipo;
     }
 
-    public void setId(Long id) {
+    public void setId(UUID id) {
         this.id = id;
     }
 
@@ -36,7 +37,7 @@ public class Pessoa {
         this.nome = nome;
     }
 
-    public void setTipo(TipoDePessoa tipo) {
+    public void setTipo(EnumTipoDePessoa tipo) {
         this.tipo = tipo;
     }
 

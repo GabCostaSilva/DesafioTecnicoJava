@@ -1,6 +1,5 @@
 package domain.criterias.criteriosIdadeDoPretendente;
 
-import com.github.javafaker.Zelda;
 import domain.enums.EnumPontuacao;
 
 public class CriterioIdadeDoPretendenteAbaixoDe30 extends CriterioIdadeDoPretendenteAbstract{

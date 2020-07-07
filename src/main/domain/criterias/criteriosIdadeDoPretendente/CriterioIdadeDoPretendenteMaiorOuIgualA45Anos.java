@@ -1,7 +1,5 @@
 package domain.criterias.criteriosIdadeDoPretendente;
 
-import domain.entities.Familia;
-import domain.criterias.CriterioDeAvaliacao;
 import domain.enums.EnumPontuacao;
 
 public class CriterioIdadeDoPretendenteMaiorOuIgualA45Anos extends CriterioIdadeDoPretendenteAbstract {
