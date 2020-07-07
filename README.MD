@@ -1,7 +1,7 @@
 # Sorteio de Casas
 Desafio feito para teste técnico.
 
-Foram utilizados conceitos de OO como Design Patterns Factory e Command, práticas de SOLID e testes unitários, e também algumas implementações de funções baseadas em programação funcional.
+Foram utilizados conceitos de OO, práticas de SOLID e testes unitários, e também algumas implementações de funções baseadas em programação funcional.
 
 Código escrito em Java 11, com muitas APIS do Java 8.
 
