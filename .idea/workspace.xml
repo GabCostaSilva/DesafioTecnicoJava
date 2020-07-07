@@ -2,65 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3bb8b119-86b4-4ee3-becb-ec72dbd4c3d2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/com_googlecode_json_simple_json_simple_1_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/hamcrest-core-1.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/json-20200518.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/json-simple-1.1.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/json-simple-3.1.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/junit-4.10.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/junit-4.12.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/api/Cadastro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/modules/contemplados/ControleDeContemplados.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/utils/FileLoader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/utils/JsonParser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/familias.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/status.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/unit/domain/familySelection/ListagemDeFamiliasTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/DesafioDigix.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DesafioDigix.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/gabriel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/gabriel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/domain/entities/Familia.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/domain/entities/Familia.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/domain/entities/Pessoa.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/domain/entities/Pessoa.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/domain/entities/Renda.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/domain/entities/Renda.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/domain/enums/TipoDePessoa.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/domain/factories/AbstractFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/domain/factories/PessoaFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/domain/rules/PontosPorIdade.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/domain/rules/PontosPorQtdDependentes.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/domain/rules/PontosPorRenda.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/domain/rules/RegraDeCalculo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/domain/utils/CalculadoraDePontos.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/unit/domain/TestAbstract.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/unit/domain/TestAbstract.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/unit/domain/entities/FamiliaTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/unit/domain/entities/FamiliaTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/unit/domain/entities/PessoaTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/unit/domain/entities/PessoaTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/unit/domain/utils/CalculadoraDePontosTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/data/factories/AbstractFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/data/factories/AbstractFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/data/factories/PessoaFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/data/factories/PessoaFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/data/factories/familia/FamiliaFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/data/factories/familia/FamiliaFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/domain/criterias/CriterioDeAvaliacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/domain/criterias/CriterioDeAvaliacao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/domain/criterias/criteriosIdadeDoPretendente/CriterioIdadeDoPretendenteAbaixoDe30.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/domain/criterias/criteriosIdadeDoPretendente/CriterioIdadeDoPretendenteAbaixoDe30.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/domain/criterias/criteriosIdadeDoPretendente/CriterioIdadeDoPretendenteAbstract.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/domain/criterias/criteriosIdadeDoPretendente/CriterioIdadeDoPretendenteAbstract.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/domain/criterias/criteriosIdadeDoPretendente/CriterioIdadeDoPretendenteDe30A44.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/domain/criterias/criteriosIdadeDoPretendente/CriterioIdadeDoPretendenteDe30A44.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/domain/criterias/criteriosIdadeDoPretendente/CriterioIdadeDoPretendenteMaiorOuIgualA45Anos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/domain/criterias/criteriosIdadeDoPretendente/CriterioIdadeDoPretendenteMaiorOuIgualA45Anos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/domain/criterias/criteriosNumDependentes/CriterioFamiliaCom1ou2Dependentes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/domain/criterias/criteriosNumDependentes/CriterioFamiliaCom1ou2Dependentes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/domain/criterias/criteriosNumDependentes/CriterioFamiliaCom3OuMaisDependentes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/domain/criterias/criteriosNumDependentes/CriterioFamiliaCom3OuMaisDependentes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/domain/criterias/criteriosRendaFamiliarTotal/CriterioRendaFamiliarTotalAte900.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/domain/criterias/criteriosRendaFamiliarTotal/CriterioRendaFamiliarTotalAte900.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/domain/criterias/criteriosRendaFamiliarTotal/CriterioRendaFamiliarTotalEntre1501E2000.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/domain/criterias/criteriosRendaFamiliarTotal/CriterioRendaFamiliarTotalEntre1501E2000.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/domain/criterias/criteriosRendaFamiliarTotal/CriterioRendaFamiliarTotalEntre901E1500.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/domain/criterias/criteriosRendaFamiliarTotal/CriterioRendaFamiliarTotalEntre901E1500.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/domain/entities/Familia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/domain/entities/Familia.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/domain/enums/EnumPontuacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/domain/enums/EnumPontuacao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/domain/enums/EnumTipoDePessoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/domain/enums/EnumTipoDePessoa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/domain/familySelection/ListagemDeFamilias.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/domain/familySelection/ListagemDeFamilias.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/domain/familySelection/ValidacaoDeFamilia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/domain/familySelection/ValidacaoDeFamilia.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/domain/familySelection/calculations/AvaliadorDeCriterios.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/domain/familySelection/calculations/AvaliadorDeCriterios.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/domain/familySelection/calculations/IAvaliadorDeCriterios.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/domain/familySelection/calculations/IAvaliadorDeCriterios.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/domain/familySelection/criteriaProcessors/ProcessadorDeCriterios.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/domain/familySelection/criteriaProcessors/ProcessadorDeCriterios.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/domain/familySelection/criteriaProcessors/ProcessadorDeCriteriosAbstract.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/domain/familySelection/criteriaProcessors/ProcessadorDeCriteriosAbstract.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/domain/familySelection/criteriaProcessors/ProcessadorDeCriteriosCollectionFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/domain/familySelection/criteriaProcessors/ProcessadorDeCriteriosCollectionFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/domain/familySelection/criteriaProcessors/ProcessadorDependentes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/domain/familySelection/criteriaProcessors/ProcessadorDependentes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.MD" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -271,7 +213,7 @@
       <workItem from="1593834312232" duration="1571000" />
       <workItem from="1593894847596" duration="6388000" />
       <workItem from="1594002882763" duration="7178000" />
-      <workItem from="1594068812518" duration="53731000" />
+      <workItem from="1594068812518" duration="54277000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1594009460512</created>
@@ -367,22 +309,22 @@
       <screen x="0" y="0" width="1366" height="734" />
     </state>
     <state x="466" y="123" width="648" height="487" key="FileChooserDialogImpl/0.0.1366.734@0.0.1366.734" timestamp="1594002986140" />
-    <state width="1320" height="207" key="GridCell.Tab.0.bottom" timestamp="1594129480364">
+    <state width="1320" height="207" key="GridCell.Tab.0.bottom" timestamp="1594130067979">
       <screen x="0" y="0" width="1366" height="734" />
     </state>
-    <state width="1320" height="207" key="GridCell.Tab.0.bottom/0.0.1366.734@0.0.1366.734" timestamp="1594129480364" />
-    <state width="1320" height="207" key="GridCell.Tab.0.center" timestamp="1594129480363">
+    <state width="1320" height="207" key="GridCell.Tab.0.bottom/0.0.1366.734@0.0.1366.734" timestamp="1594130067979" />
+    <state width="1320" height="207" key="GridCell.Tab.0.center" timestamp="1594130067979">
       <screen x="0" y="0" width="1366" height="734" />
     </state>
-    <state width="1320" height="207" key="GridCell.Tab.0.center/0.0.1366.734@0.0.1366.734" timestamp="1594129480363" />
-    <state width="1320" height="207" key="GridCell.Tab.0.left" timestamp="1594129480362">
+    <state width="1320" height="207" key="GridCell.Tab.0.center/0.0.1366.734@0.0.1366.734" timestamp="1594130067979" />
+    <state width="1320" height="207" key="GridCell.Tab.0.left" timestamp="1594130067978">
       <screen x="0" y="0" width="1366" height="734" />
     </state>
-    <state width="1320" height="207" key="GridCell.Tab.0.left/0.0.1366.734@0.0.1366.734" timestamp="1594129480362" />
-    <state width="1320" height="207" key="GridCell.Tab.0.right" timestamp="1594129480363">
+    <state width="1320" height="207" key="GridCell.Tab.0.left/0.0.1366.734@0.0.1366.734" timestamp="1594130067978" />
+    <state width="1320" height="207" key="GridCell.Tab.0.right" timestamp="1594130067979">
       <screen x="0" y="0" width="1366" height="734" />
     </state>
-    <state width="1320" height="207" key="GridCell.Tab.0.right/0.0.1366.734@0.0.1366.734" timestamp="1594129480363" />
+    <state width="1320" height="207" key="GridCell.Tab.0.right/0.0.1366.734@0.0.1366.734" timestamp="1594130067979" />
     <state width="1320" height="216" key="GridCell.Tab.1.bottom" timestamp="1594115724851">
       <screen x="0" y="0" width="1366" height="734" />
     </state>
