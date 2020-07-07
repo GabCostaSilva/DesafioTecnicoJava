@@ -14,7 +14,7 @@ public class ValidacaoDeFamilia {
     public ValidacaoDeFamilia(Familia familia) {
         this.familia = familia;
         this.processadoresFactory = new ProcessadorDeCriteriosCollectionFactory();
-        this.avaliadorDeCriterios = new AvaliadorDeCriterios(processadoresFactory.create(familia));
+        this.avaliadorDeCriterios = new AvaliadorDeCriterios(processadoresFactory.create(this.familia));
     }
 
     public int calcularPontos() {
@@ -22,6 +22,7 @@ public class ValidacaoDeFamilia {
     }
 
     public int getQuantidadeDeCriteriosAtendidos() {
-        return this.avaliadorDeCriterios.getCriteriosAtendidos().size();
+        this.familia.setCriteriosAtendidos(this.avaliadorDeCriterios.getCriteriosAtendidos());
+        return this.avaliadorDeCriterios.getCriteriosAtendidos();
     }
 }

@@ -11,4 +11,8 @@ public abstract class CriterioIdadeDoPretendenteAbstract implements CriterioDeAv
         this.idade = idade;
         this.pontuacao = pontuacao;
     }
+
+    public void setIdade(int idade) {
+        this.idade = idade;
+    }
 }

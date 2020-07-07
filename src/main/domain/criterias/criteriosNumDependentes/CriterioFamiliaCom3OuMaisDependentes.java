@@ -8,11 +8,11 @@ public class CriterioFamiliaCom3OuMaisDependentes extends CriterioPorDependentes
         super(numeroDeDependentes, EnumPontuacao.TRES);
     }
 
-    public boolean ehAceito() {
+    public boolean ehAtendido() {
         return numeroDeDependentes >= 3;
     }
 
     public EnumPontuacao getPontuacao() {
-        return this.ehAceito() ? this.pontuacao : EnumPontuacao.ZERO;
+        return this.ehAtendido() ? this.pontuacao : EnumPontuacao.ZERO;
     }
 }

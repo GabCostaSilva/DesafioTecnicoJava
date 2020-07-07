@@ -1,5 +1,10 @@
-package domain.factories;
+package data.factories;
+
+import com.github.javafaker.Faker;
 
 public abstract class AbstractFactory {
-    public abstract Object create();
+    Faker faker;
+    public AbstractFactory() {
+        this.faker = new Faker();
+    }
 }

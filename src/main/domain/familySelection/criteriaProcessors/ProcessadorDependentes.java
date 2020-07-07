@@ -4,10 +4,10 @@ import domain.criterias.criteriosNumDependentes.CriterioFamiliaCom1ou2Dependente
 import domain.criterias.criteriosNumDependentes.CriterioFamiliaCom3OuMaisDependentes;
 import domain.entities.Familia;
 
-public class ProcessadorCriterioDeDependentes extends ProcessadorDeCriteriosAbstract{
+public class ProcessadorDependentes extends ProcessadorDeCriteriosAbstract{
     private int dependentes;
 
-    public ProcessadorCriterioDeDependentes(Familia familia) {
+    public ProcessadorDependentes(Familia familia) {
         super(familia);
         this.dependentes = familia.countDependentes();
         this.criterios.add(new CriterioFamiliaCom1ou2Dependentes(this.dependentes));

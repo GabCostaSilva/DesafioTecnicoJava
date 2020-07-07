@@ -1,0 +1,6 @@
+[
+  { "id": "0", "s": "Cadastro válido" },
+  { "id": "1", "s": "Já possui uma casa" },
+  { "id": "2", "s": "Selecionada em outro processo de seleção" },
+  { "id": "3", "s": "Cadastro incompleto" }
+]

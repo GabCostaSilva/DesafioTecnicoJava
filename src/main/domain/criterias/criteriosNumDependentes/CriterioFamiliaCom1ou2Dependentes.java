@@ -8,11 +8,11 @@ public class CriterioFamiliaCom1ou2Dependentes extends CriterioPorDependentesAbs
         super(numeroDependentes, EnumPontuacao.DOIS);
     }
 
-    public boolean ehAceito() {
+    public boolean ehAtendido() {
         return numeroDeDependentes == 1 || numeroDeDependentes == 2;
     }
 
     public EnumPontuacao getPontuacao() {
-        return this.ehAceito() ? this.pontuacao : EnumPontuacao.ZERO;
+        return this.ehAtendido() ? this.pontuacao : EnumPontuacao.ZERO;
     }
 }

@@ -1,10 +1,8 @@
 package domain.familySelection.calculations;
 
-import domain.criterias.CriterioDeAvaliacao;
 import domain.familySelection.criteriaProcessors.ProcessadorDeCriterios;
 
 import java.util.List;
-import java.util.stream.Collectors;
 
 public class AvaliadorDeCriterios implements IAvaliadorDeCriterios {
     List<ProcessadorDeCriterios> processadoresDeCriterios;
@@ -17,20 +15,23 @@ public class AvaliadorDeCriterios implements IAvaliadorDeCriterios {
     public int calcularPontos() {
         return this.processadoresDeCriterios
                 .stream()
-                .mapToInt(processadorDeCriterios ->
+                .filter(processadorDeCriterios ->
+                        processadorDeCriterios.getCriterioAtendido() != null)
+                .map(processadorDeCriterios ->
                         processadorDeCriterios
-                                .getCriterioAceito()
+                                .getCriterioAtendido()
                                 .getPontuacao()
                                 .getValor())
-                .sum();
+                .reduce(0, Integer::sum);
 
     }
 
     @Override
-    public List<CriterioDeAvaliacao> getCriteriosAceitos() {
-        return this.processadoresDeCriterios
+    public int getCriteriosAtendidos() {
+        return (int) this.processadoresDeCriterios
                 .stream()
-                .map(ProcessadorDeCriterios::getCriterioAceito)
-                .collect(Collectors.toList());
+                .filter(processadorDeCriterios ->
+                        processadorDeCriterios.getCriterioAtendido() != null)
+                .count();
     }
 }

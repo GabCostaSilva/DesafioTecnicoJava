@@ -6,5 +6,5 @@ import java.util.List;
 
 public interface IAvaliadorDeCriterios {
     int calcularPontos();
-    List<CriterioDeAvaliacao> getCriteriosAceitos();
+    int getCriteriosAtendidos();
 }

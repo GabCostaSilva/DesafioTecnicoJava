@@ -8,12 +8,12 @@ public class CriterioIdadeDoPretendenteAbaixoDe30 extends CriterioIdadeDoPretend
     }
 
     @Override
-    public boolean ehAceito() {
+    public boolean ehAtendido() {
         return this.idade <= 30;
     }
 
     @Override
     public EnumPontuacao getPontuacao() {
-        return this.ehAceito() ? EnumPontuacao.UM : EnumPontuacao.ZERO;
+        return this.ehAtendido() ? EnumPontuacao.UM : EnumPontuacao.ZERO;
     }
 }

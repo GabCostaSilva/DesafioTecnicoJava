@@ -9,7 +9,7 @@ public class ProcessadorDeCriteriosCollectionFactory implements IProcessadorDeCr
     public List<ProcessadorDeCriterios> create(Familia familia) {
         List<ProcessadorDeCriterios> processadores = new ArrayList<>();
 
-        processadores.add(new ProcessadorCriterioDeDependentes(familia));
+        processadores.add(new ProcessadorDependentes(familia));
         processadores.add(new ProcessadorIdadeDoPretendente(familia));
         processadores.add(new ProcessadorRendaTotal(familia));
 

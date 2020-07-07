@@ -8,12 +8,12 @@ public class CriterioRendaFamiliarTotalEntre901E1500 extends CriterioRendaFamili
     }
 
     @Override
-    public boolean ehAceito() {
+    public boolean ehAtendido() {
         return this.renda >= 901 && this.renda <= 1500;
     }
 
     @Override
     public EnumPontuacao getPontuacao() {
-        return this.ehAceito() ? this.pontuacao : EnumPontuacao.ZERO;
+        return this.ehAtendido() ? this.pontuacao : EnumPontuacao.ZERO;
     }
 }

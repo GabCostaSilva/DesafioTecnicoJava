@@ -9,6 +9,7 @@ public enum EnumPontuacao {
         this.pontuacao = pontuacao;
     }
 
+
     public int getValor() {
         return pontuacao;
     }
