@@ -17,7 +17,7 @@ public class ListagemDeFamilias {
         Collections.sort(this.familias);
         return this.familias
                 .stream()
-                .filter(familia -> familia.getStatus() != 0)
+                .filter(familia -> familia.getStatus() == 0)
                 .collect(Collectors.toList());
     }
 }
